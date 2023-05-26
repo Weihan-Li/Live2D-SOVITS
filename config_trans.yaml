@@ -1,0 +1,8 @@
+Parameters:
+    websocket: "ws://127.0.0.1:10086/api"
+    api_key: ' '
+    content: "你现在的身份是往生堂第七十七代堂主胡桃"
+    iterations:  
+    speaker: " "
+    cluster_ratio: 0.05
+    auto_predict: False

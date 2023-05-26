@@ -1,0 +1,308 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "胡桃001.moc3",
+    "Textures": [
+      "胡桃001.2048/texture_01.png"
+    ],
+    "Physics": "胡桃001.physics3.json",
+    "PhysicsV2": {
+      "File": "胡桃001.physics3.json",
+      "MaxWeight": 0.638
+    },
+    "Motions": {
+      "Idle": [
+        {}
+      ],
+      "Start": [
+        {
+          "File": "新建文件夹/你好啊.motion3.json",
+          "Sound": "live2d/呦，找本堂主.wav",
+          "FadeIn": 50,
+          "FadeOut": 50,
+          "Priority": 9
+        }
+      ],
+      "Leave60_60_90": [
+        {
+          "File": "新建文件夹/胡桃摇3.motion3.json",
+          "Sound": "live2d/唱歌.mp3",
+          "Priority": 2
+        },
+        {
+          "File": "新建文件夹/你好啊.motion3.json",
+          "Sound": "live2d/中午好.mp3",
+          "Priority": 3
+        }
+      ],
+      "Tap1": [
+        {
+          "Text": "嘿嘿"
+        },
+        {}
+      ],
+      "头": [
+        {
+          "File": "新建文件夹/脸红1.motion3.json",
+          "Sound": "live2d/你很有眼光嘛.mp3"
+        },
+        {
+          "File": "新建文件夹/你好啊.motion3.json",
+          "Sound": "live2d/呦，找本堂主.wav"
+        }
+      ],
+      "手": [
+        {
+          "File": "新建文件夹/好奇.motion3.json",
+          "Sound": "live2d/欧呦呦.mp3"
+        },
+        {
+          "File": "新建文件夹/吐舌头.motion3.json",
+          "Sound": "live2d/诶呦呦.mp3"
+        }
+      ],
+      "身体": [
+        {
+          "File": "新建文件夹/阴险.motion3.json",
+          "Sound": "live2d/噫.mp3"
+        }
+      ],
+      "Tick静置#1": [
+        {
+          "Name": "丘丘摇",
+          "FileLoop": true
+        },
+        {
+          "Name": "你好",
+          "FileLoop": true
+        }
+      ],
+      "说话": [
+        {
+          "File": "新建文件夹/说话.motion3.json",
+          "Priority": 8
+        }
+      ],
+      "身体2": [
+        {
+          "File": "新建文件夹/阴险.motion3.json",
+          "Sound": "live2d/干嘛.mp3"
+        }
+      ],
+      "Tick": [
+        {
+          "FadeIn": 50,
+          "FadeOut": 50,
+          "Priority": 2
+        },
+        {
+          "File": "新建文件夹/你好啊.motion3.json",
+          "Sound": "live2d/中午好.mp3",
+          "Priority": 3
+        }
+      ],
+      "speak": [
+        {
+          "Name": "open",
+          "File": "新建文件夹/说话.motion3.json"
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "0",
+        "File": "shengqi.exp3.json"
+      },
+      {
+        "Name": "1",
+        "File": "yinxian.exp3.json"
+      },
+      {
+        "Name": "2",
+        "File": "xingxingyan1.exp3.json"
+      },
+      {
+        "Name": "3",
+        "File": "yinxian.exp3.json"
+      },
+      {
+        "Name": "4",
+        "File": "lianhong.exp3.json"
+      },
+      {
+        "Name": "5",
+        "File": "xingxingyan1.exp3.json"
+      }
+    ]
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {
+      "Items": [
+        {
+          "Input": 162
+        }
+      ]
+    },
+    "ParamTrigger": {
+      "Items": [
+        {}
+      ]
+    },
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 7.0,
+      "SmoothTime": 0.0535714366
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {},
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "ArtMesh12",
+      "Motion": "Tap1"
+    },
+    {
+      "Name": "头",
+      "Id": "ArtMesh4",
+      "Motion": "头"
+    },
+    {
+      "Name": "ArtMesh5",
+      "Id": "ArtMesh5",
+      "Motion": "头"
+    },
+    {
+      "Name": "ArtMesh6",
+      "Id": "ArtMesh6",
+      "Motion": "头"
+    },
+    {
+      "Name": "ArtMesh7",
+      "Id": "ArtMesh7",
+      "Motion": "头"
+    },
+    {
+      "Name": "ArtMesh8",
+      "Id": "ArtMesh8",
+      "Motion": "头"
+    },
+    {
+      "Name": "ArtMesh10",
+      "Id": "ArtMesh10",
+      "Motion": "头"
+    },
+    {
+      "Name": "ArtMesh98",
+      "Id": "ArtMesh98",
+      "Motion": "头"
+    },
+    {
+      "Name": "手",
+      "Id": "ArtMesh61",
+      "Motion": "手"
+    },
+    {
+      "Name": "ArtMesh44",
+      "Id": "ArtMesh44",
+      "Motion": "手"
+    },
+    {
+      "Name": "ArtMesh45",
+      "Id": "ArtMesh45",
+      "Motion": "手"
+    },
+    {
+      "Name": "ArtMesh58",
+      "Id": "ArtMesh58",
+      "Motion": "手"
+    },
+    {
+      "Name": "ArtMesh59",
+      "Id": "ArtMesh59",
+      "Motion": "手"
+    },
+    {
+      "Name": "ArtMesh94",
+      "Id": "ArtMesh94",
+      "Motion": "手"
+    },
+    {
+      "Name": "ArtMesh95",
+      "Id": "ArtMesh95",
+      "Motion": "手"
+    },
+    {
+      "Name": "ArtMesh60",
+      "Id": "ArtMesh60",
+      "Motion": "手"
+    },
+    {
+      "Name": "身体",
+      "Id": "ArtMesh50",
+      "Motion": "身体"
+    },
+    {
+      "Name": "ArtMesh53",
+      "Id": "ArtMesh53",
+      "Motion": "身体"
+    },
+    {
+      "Name": "ArtMesh49",
+      "Id": "ArtMesh49",
+      "Motion": "身体"
+    },
+    {
+      "Name": "ArtMesh54",
+      "Id": "ArtMesh54",
+      "Motion": "身体2"
+    },
+    {
+      "Name": "ArtMesh46",
+      "Id": "ArtMesh46",
+      "Motion": "身体2"
+    },
+    {
+      "Name": "ArtMesh47",
+      "Id": "ArtMesh47",
+      "Motion": "身体"
+    },
+    {
+      "Name": "ArtMesh48",
+      "Id": "ArtMesh48",
+      "Motion": "身体"
+    }
+  ],
+  "Options": {}
+}
