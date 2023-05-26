@@ -106,7 +106,7 @@ python ch_trans.py
 
 参考 https://github.com/Weihan-Li/BERT_emotion 进行安装，将其中的`BERT_predict.py`替换成在本项目中的`BERT_predict.py`。
 
-修改代码69行的`"E:/BERT/chatgpt.txt"`为你的`chatgpt.txt`位置（应该在so-vits-svc文件夹中），cd到你的BERT_emotion文件夹下运行：
+修改代码69行的`"E:/BERT/chatgpt.txt"`为你的`chatgpt.txt`位置（应该在so-vits-svc文件夹中，没有就新建一个），cd到你的BERT_emotion文件夹下运行：
 
 ```
 python BERT_predict.py
@@ -148,7 +148,7 @@ json_data = {
     "msgId": 1,
     "data": {
         "id": 0,
-        "expId": int(output)  # 将output转换为整数类型
+        "expId": int(output)
     }
 }
 ```
@@ -169,4 +169,4 @@ json_data1 = {
 }
 ```
 
-中的`"speak:open"`修改为你的`动作组-动作`中的说话动作。
+中的`"speak:open"`修改为你的`动作组-动作`中的`说话`动作。
