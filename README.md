@@ -14,13 +14,13 @@
 
 ### 准备工作
 
-首先从https://github.com/svc-develop-team/so-vits-svc下载该包。注意其大小大约为15GB，需要预留足够的硬盘空间。
+首先从 https://github.com/svc-develop-team/so-vits-svc 下载该包。注意其大小大约为15GB，需要预留足够的硬盘空间。
 
 ```
 git clone https://github.com/svc-develop-team/so-vits-svc.git
 ```
 
-接着在steam中下载Live2DViewerEX，并从https://github.com/pavostudio/ExAPI下载Live2DViewerEX的API库。
+接着在steam中下载Live2DViewerEX，并从 https://github.com/pavostudio/ExAPI 下载Live2DViewerEX的API库。
 
 ```
 git clone https://github.com/pavostudio/ExAPI.git
