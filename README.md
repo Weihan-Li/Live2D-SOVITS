@@ -2,7 +2,7 @@
 
 ## 功能简介
 
-结合chatgpt，[so-vits-svc](https://github.com/svc-develop-team/so-vits-svc/tree/4.1-Stable)，Live2DViewerEX软件及其[API][https://github.com/pavostudio/ExAPI]以及[中文BERT-wwm][https://github.com/ymcui/Chinese-BERT-wwm]制作的桌面聊天AI助手。
+结合chatgpt，[so-vits-svc](https://github.com/svc-develop-team/so-vits-svc/tree/4.1-Stable)，Live2DViewerEX软件及其[API](https://github.com/pavostudio/ExAPI)以及[中文BERT-wwm](https://github.com/ymcui/Chinese-BERT-wwm)制作的桌面聊天AI助手。
 
 #### 可以实现：
 
@@ -104,7 +104,7 @@ python ch_trans.py
 
 #### 说话时伴随角色表情的效果：
 
-参考https://github.com/Weihan-Li/BERT_emotion进行安装，将其中的`BERT_predict.py`替换成在本项目中的`BERT_predict.py`。
+参考 https://github.com/Weihan-Li/BERT_emotion 进行安装，将其中的`BERT_predict.py`替换成在本项目中的`BERT_predict.py`。
 
 修改代码69行的`"E:/BERT/chatgpt.txt"`为你的`chatgpt.txt`位置（应该在so-vits-svc文件夹中），cd到你的BERT_emotion文件夹下运行：
 
@@ -138,7 +138,7 @@ pyinstaller --noconsole --onefile run.py
 
 首先需要一个包括模型、动作以及表情json文件及live2d模型文件的完整live2d文件包。
 
-参考教程：[手把手教你制作可触摸的Live2D桌面][https://www.bilibili.com/video/BV1s54y157cQ/?spm_id_from=333.337.search-card.all.click&vd_source=1fd2dd25e8d4b6aee066bbd0f2eb9e64]，给自己的模型添加动作以及表情。
+参考教程：[手把手教你制作可触摸的Live2D桌面](https://www.bilibili.com/video/BV1s54y157cQ/?spm_id_from=333.337.search-card.all.click&vd_source=1fd2dd25e8d4b6aee066bbd0f2eb9e64)，给自己的模型添加动作以及表情。
 
 `BERT_predict.py`中的
 
